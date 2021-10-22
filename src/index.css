@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button.rec-dot {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 1px 3px rgb(255, 255, 255);
+}
+
+button.rec-dot:hover {
+  box-shadow: 0 0 1px 3px rgb(255, 0, 0);
+}
+
+button.rec-dot:active,
+button.rec-dot:focus {
+  background-color: rgb(255, 0, 0);
+  box-shadow: 0 0 1px 3px rgb(255, 0, 0);
+}
+button.rec-pagination {
+  background-color: rgb(255, 0, 0);
+  box-shadow: 0 0 1px 3px rgb(255, 0, 0);
+}
+
+button.rec.rec-arrow {
+  border-radius: 0;
+  display: none;
+}
+Button :active,
+Button:focus {
+  border: none;
+}
